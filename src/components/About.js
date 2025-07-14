@@ -17,7 +17,7 @@ const About = () => {
             data-aos-once="false"
             className="text-lg mx-auto leading-relaxed font-medium text-dark-orange text-center"
           >
-            Why hire me ?
+            What I offer ?
           </p>
         </div>
         <div className="mx-auto flex lg:flex-row flex-col items-center justify-center">
@@ -33,7 +33,7 @@ const About = () => {
               src={AboutData.image}
             />
           </div>
-          <div className="lg:w-1/2 justify-center lg:p-5 xl:p-7 md:p-5 flex flex-col items-center text-justify">
+          <div className="lg:w-1/2 lg:p-5 xl:p-7 md:p-5 flex flex-col text-justify">
             {AboutData.description?.map((item, index) => (
               <p
                 key={index}
@@ -62,11 +62,11 @@ const About = () => {
                   Hire Me
                 </Link>
               </button>
-              <a href={ProfileData.resume} target="_blank" rel="noreferrer">
+              {/* <a href={ProfileData.resume} target="_blank" rel="noreferrer">
                 <button className="inline-flex font-medium text-white bg-dark-orange border-2 border-dark-orange py-3 px-7 focus:outline-none hover:bg-cornsilk hover:border-dark-orange hover:text-black rounded-full text-md xl:px-10">
                   Get Resume
                 </button>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

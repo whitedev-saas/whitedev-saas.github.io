@@ -26,11 +26,8 @@ const Navbar = () => {
           to="home"
           className="flex justify-center items-center w-fit"
         >
-          <img
-            className="w-12 h-12 ml-3 cursor-pointer scale-125 lg:scale-150"
-            src={ProfileData.logo}
-            alt={ProfileData.name}
-          />
+          
+          <h2 className="title-font md:text-2xl text-2xl cursor-pointer font-medium text-white font-fantasy">{ProfileData.name}</h2>
         </Link>
         <nav
           data-aos="zoom-in"
@@ -68,7 +65,7 @@ const Navbar = () => {
             )}
           </button>
         </div>
-        <button
+        {/* <button
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-once="false"
@@ -82,7 +79,7 @@ const Navbar = () => {
           >
             Resume
           </a>
-        </button>
+        </button> */}
         {isMenuOpen && (
           <div className="min-h-[calc(100vh-4rem)] absolute inset-x-0 top-16 z-50 transition-all ease-in duration-1000 lg:hidden">
             <div

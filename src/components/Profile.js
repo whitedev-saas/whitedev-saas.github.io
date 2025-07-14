@@ -16,7 +16,7 @@ const Profile = () => {
           data-aos="zoom-in-up"
           data-aos-duration="1000"
           data-aos-once="false"
-          className="w-5/6 sm:max-w-xs md:max-w-sm lg:max-w-md sm:w-2/6 lg:mr-10 xl:mr-20 lg:p-5 lg:w-1/3 xl:w-1/4 "
+          className="w-5/6 sm:max-w-xs md:max-w-sm lg:max-w-md sm:w-2/6 lg:mr-10 xl:mr-20 lg:p-10 lg:w-1/4 xl:w-1/5"
         >
           <img
             className="object-cover object-center bg-[#b9aeb6] border-2 border-white pointer-events-none rounded-full backdrop-contrast-200 backdrop-brightness-200"
@@ -24,7 +24,7 @@ const Profile = () => {
             src={ProfileData.img}
           />
         </div>
-        <div className="lg:flex-grow lg:pr-4 lg:mr-14 flex flex-col md:mb-0 items-center text-center xl:scale-105">
+        <div className="lg:flex-grow lg:pr-4 lg:mr-14 flex flex-col md:mb-0 items-center text-center xl:scale-105" >
           <SocialHandles />
           <h2
             data-aos="zoom-in-up"
@@ -67,7 +67,7 @@ const Profile = () => {
             data-aos-once="false"
             className="mt-4 flex gap-x-4 md:gap-x-5 justify-center md:justify-between"
           >
-            <button className="inline-flex font-medium text-white bg-black border-2 border-white py-3 px-7 focus:outline-none hover:bg-cornsilk hover:border-dark-orange hover:text-black rounded-full text-md xl:px-10">
+            <button className="inline-flex font-medium text-white bg-darkvalue border-2 border-white py-3 px-7 focus:outline-none hover:bg-cornsilk hover:border-dark-orange hover:text-black rounded-full text-md xl:px-10">
               <Link
                 to="contact"
                 spy={true}
@@ -78,11 +78,11 @@ const Profile = () => {
                 Hire Me
               </Link>
             </button>
-            <a href={ProfileData.resume} target="_blank" rel="noreferrer">
+            {/* <a href={ProfileData.resume} target="_blank" rel="noreferrer">
               <button className="inline-flex font-medium text-white bg-dark-orange border-2 border-dark-orange py-3 px-7 focus:outline-none hover:bg-cornsilk hover:border-dark-orange hover:text-black rounded-full text-md xl:px-10">
                 Get Resume
               </button>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

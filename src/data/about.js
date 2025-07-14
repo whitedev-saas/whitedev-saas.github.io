@@ -1,9 +1,15 @@
 const AboutData = {
   image: require("../assets/Images/about.png"),
   description: [
-    "A passionate and dedicated web developer with a strong background in creating visually stunning and highly functional websites with 2 years of experience in the field.",
-    "Throughout my career, I have developed proficiency in various web technologies including HTML5 , CSS3 , JavaScript. I am well-versed in popular libraries such as React and frameworks like Next ,Tailwind allowing me to build robust and responsive websites.",
-    "I'm excited to take on new challenges and contribute to innovative projects. Feel free to connect with me through my social media link",
+    "As a seasoned AI SaaS Developer and two times part of the VC funded backed startups, I’ve spent 8+ years designing AI-driven products that scale. What is my niche? Realizing complex ideas into lean, market-winning SaaS platforms, automation tools, and AI powered systems.",
+    "My focus has been directed towards:",
+    "• Build AI-powered SaaS platforms from scratch (MVP to scale)",
+    "• Create intelligent web apps using ChatGPT, OpenAI API, LangChain, FastAPI",
+    "• SaaS Automation solutions for Marketing",
+    "• Automate lead generation, email, and CRM pipelines using GoHighLevel (GHL)",
+    "• Custom AI Agents & Custom Chatbot",
+    "• Real Time and Custom Analytics Dashboard",
+    "I always like to learn new technologies/frameworks and look forward to the new trends. Feel free to connect with me through email.",
   ],
 };
 export default AboutData;

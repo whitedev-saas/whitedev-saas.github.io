@@ -1,24 +1,38 @@
 const ExperienceData = [
   {
-    title: "Full Stack Developer Intern",
-    company: "Atoms Digital Solutions",
-    duration: "March 2023 - Feb 2024",
+    title: "AI SaaS Engineer",
+    company: "Reply.io",
+    duration: "March 2017 - August 2020",
     description: [
-      "Engineered Vaaradhi Portal, a management website for underprivileged students and orphans with educational facilities.",
-      "Collaborated with a team of 4 developers to ensure seamless integration of the application.",
-      "Implemented the MERN stack (MongoDB, Express.js, React.js, Node.js) with Google Cloud resulting in a 30% reduction in image loading.",
-      "Streamlined data entry and paperwork processes with the website, saving approximately 20 hours per week.",
+      "Developed and scaled AI-driven outbound sales automation tools using Python, and PostgreSQL.",
+      "Built custom GPT-based email generators using OpenAI APIs, enabling dynamic outreach personalization.",
+      "Integrated Stripe for subscription billing and CRM integrations (like HubSpot, GHL alternatives).",
+      "Helped launch their AI-powered LinkedIn messaging assistant (now core feature).",
+      "Collaborated cross-functionally in a fast-paced startup environment focused on remote-first automation.",
     ],
   },
   {
-    title: "Frontend Developer Intern",
-    company: "BabyCloud",
-    duration: "July 2024 - Present",
+    title: "Lead Full-Stack Developer",
+    company: "Postaga",
+    duration: "October 2020 - November 2022",
     description: [
-      "Oversees the BabyCloud website, optimizing performance and delivering a seamless user experience.",
-      "Incorporated analytics for user engagement insights and ads to drive website traffic.",
-      "Implemented the Baby Name Generator feature, significantly boosting organic search rankings.",
-      "Integrated Razorpay for secure payments, enabling seamless Child Development Program plan purchases.",
+      "Architected a modular outreach automation engine using Node.js, GHL webhooks, and Zapier APIs.",
+      "Created marketing workflow automations integrating GHL pipelines, Cold Email + SEO outreach, and AI content planning.",
+      "Introduced LLM-powered campaign strategy suggestions using fine-tuned GPT models.",
+      "Spearheaded MVP development for \"AutoPilot Campaign Builder\" — now a flagship feature.",
+      "Collaborated directly with founders, shipping rapid updates for thousands of users."
+    ],
+  },
+  {
+    title: "AI SaaS Automation Consultant",
+    company: "Ocoya",
+    duration: "December 2022 - May 2025",
+    description: [
+      "Designed LLM-based content generation and scheduling workflows for social media campaigns.",
+      "Integrated GHL automations for social-to-lead workflows using webhooks and Twilio SMS campaigns.",
+      "Developed intelligent marketing analytics dashboards for campaign ROI tracking.",
+      "Automated influencer tracking and smart captioning using LangChain, Pinecone, and OpenAI.",
+      "Contributed to MVP rollouts and launch of Viral Content AI Assistant.",
     ],
   },
 ];
